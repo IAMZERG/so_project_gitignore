@@ -1,1 +1,10 @@
 Everything is Awesome!
+
+
+And here's how I got rid of the unwanted directory:
+
+
+first, add a .gitignore file with the following line:
+**/directory_to_remove
+git rm --cached directory_to_remove/ -r
+
